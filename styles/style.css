@@ -175,6 +175,8 @@
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     border: 0;
+    margin: 140px 120px;
+    padding: 120px;
 }
 
 .input-field input[type="submit"] {
