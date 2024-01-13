@@ -122,6 +122,67 @@
     margin-top: 39.6px;
 }
 
+/* New Best Offer Section  */
+.offer-box h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 16.5px;
+    font-weight: 500;
+}
+
+.offer-box h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 39.6px;
+    font-weight: 900;
+}
+
+.offer-box p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26.4px;
+    /* 160% */
+}
+
+.offer-box .meow {
+    color: #F00;
+    font-family: Inter;
+    font-size: 39.6px;
+    font-weight: 700;
+}
+
+.offer-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 140px;
+    background: #FFF;
+}
+
+.new-offer-1 {
+    margin-right: 70px;
+    /* margin-left: 35px; */
+}
+
+.new-offer-2 {
+    margin-right: 35px;
+    margin-left: 70px;
+}
+
+.offer-box .img-section img {
+    width: 300.9963px;
+    height: 300.9963px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 15px;
+}
+
+.new-offer img {
+    width: 115.5px;
+    height: 115.5px;
+}
+
 /* Portfolio section  */
 .portfolio {
     margin: 24px;
@@ -178,6 +239,7 @@
     margin: 140px 120px;
     padding: 120px;
 }
+
 .input-field input[type="submit"] {
     border-radius: 0px 41.25px 41.25px 0px;
     /* border-top-left-radius: 41.25px;
@@ -299,12 +361,13 @@ hr {
     margin-top: 38px;
     padding-bottom: 38px;
     justify-content: space-between;
-    
+
 }
 
-.rights-reserved{
+.rights-reserved {
     padding-left: 99px;
 }
-.unsubscribe{
-   padding-right: 99px;
+
+.unsubscribe {
+    padding-right: 99px;
 }
