@@ -1,2 +1,37 @@
 /* Fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+}
+
+.banner {
+    margin: 50px 140px 120px 140px;
+    /* width: 82.5%; */
+    background-image: url('../resources/Banner\ Image.png');
+    border-radius: 16px;
+    border: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.banner-text {
+    padding: 125px 125px;
+}
+
+.banner h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 26.4px;
+    font-weight: 400;
+}
+
+.banner h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 59.4px;
+    font-weight: 900;
+}
