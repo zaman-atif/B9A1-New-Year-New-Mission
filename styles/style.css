@@ -66,12 +66,58 @@
     font-weight: 700;
 }
 
-.img-section img {
+.off-section .img-section img {
     width: 662.39px;
     height: 412.5px;
 }
 
 .img-section {
     text-align: center;
+    margin-top: 39.6px;
+}
+
+/* Welcome section  */
+.welcome {
+    margin: 99px 115.5px;
+    background-image: url('../resources/Vectorrr.png');
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.welcome-header {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.welcome-desc {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    /* font-size: 14.85px; */
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.welcome .img-section img {
+    width: 288.06px;
+    height: 383.33px;
+    flex-shrink: 0;
+}
+
+.join-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: none;
     margin-top: 39.6px;
 }
